@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { addTickerAction } from '../store/actions/action';
-import { hiddenTickersSelector } from '../selectors/selectors';
+import { hiddenTickersSelector } from '../store/selectors/selectors';
 import { useDispatch } from 'react-redux';
 import { BsFillEyeSlashFill } from 'react-icons/bs';
 import { AiOutlineSearch } from 'react-icons/ai';

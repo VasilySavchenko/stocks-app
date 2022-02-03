@@ -9,7 +9,7 @@ import {
   stopStocks,
 } from './socket-operations/socket-operations';
 import TableComponent from './components/TableComponent';
-import { tickerDataSelector } from './selectors/selectors';
+import { tickerDataSelector } from './store/selectors/selectors';
 import './index.css';
 
 function App() {
